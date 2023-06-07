@@ -92,6 +92,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    a {
+      &:hover {
+        transform: scale(1.2);
+        transition: all 0.3s;
+      }
+    }
   }
   &__overlay {
     position: fixed;
@@ -101,4 +107,8 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.6);
   }
+}
+
+.menu_open {
+  overflow: hidden;
 }

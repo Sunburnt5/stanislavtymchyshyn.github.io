@@ -1,0 +1,25 @@
+.about {
+  padding-top: 120px;
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 400px 670px;
+    grid-template-rows: minmax(245px, auto) minmax(240px, auto);
+    grid-auto-rows: minmax(245px, auto);
+    column-gap: 70px;
+    row-gap: 40px;
+  }
+  &__text {
+    color: #fff;
+  }
+  &__photo {
+    grid-row: 1/3;
+    width: 400px;
+    height: 533px;
+    filter: brightness(0.8);
+  }
+  &__skills {
+    &-text {
+      color: #fff;
+    }
+  }
+}

@@ -2,10 +2,10 @@
   height: 45px;
   background: $main-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  padding: 12px 25px;
+  padding: 12px 23px;
   &:hover {
-    background-color: #c70000;
-    transition: background-color 0.2s ease;
+    background-color: #1c416d;
+    transition: background-color 0.3s ease;
   }
   &_invisible {
     background-color: transparent;
