@@ -12,13 +12,15 @@
 }
 
 body {
-  background: repeating-linear-gradient(
-    45deg,
-    #708090,
-    #708090 10px,
-    #778899 10px,
-    #778899 20px
-  );
+  // background: repeating-linear-gradient(
+  //   45deg,
+  //   #708090,
+  //   #708090 10px,
+  //   #778899 10px,
+  //   #778899 20px
+  // );
+
+  background-color: #181626;
 
   // background-color: #708090;
 }
@@ -26,6 +28,17 @@ body {
 .container {
   margin: 0 auto;
   width: 1140px;
+}
+
+.divider {
+  border: 1px solid #5b38e3;
+  width: 60px;
+  height: 3px;
+  background-color: $main-color;
+  margin-top: 25px;
+  box-shadow: 0 0 10px #5b38e3, 0 0 20px #5b38e3, 0 0 30px #5b38e3,
+    0 0 40px #5b38e3, 0 0 50px #5b38e3, 0 0 60px #5b38e3, 0 0 70px #5b38e3;
+  border-radius: 20%;
 }
 
 @import "blocks/promo";
