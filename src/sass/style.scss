@@ -4,6 +4,7 @@
 
 @import "base/variables";
 @import "base/mixins";
+@import "base/keyframes";
 
 * {
   font-family: "Montserrat", sans-serif;
@@ -33,12 +34,14 @@ body {
 .divider {
   border: 1px solid #5b38e3;
   width: 60px;
+  position: relative;
   height: 3px;
   background-color: $main-color;
   margin-top: 25px;
   box-shadow: 0 0 10px #5b38e3, 0 0 20px #5b38e3, 0 0 30px #5b38e3,
     0 0 40px #5b38e3, 0 0 50px #5b38e3, 0 0 60px #5b38e3, 0 0 70px #5b38e3;
   border-radius: 20%;
+  animation: moveLine 7s ease-in-out infinite;
 }
 
 @import "blocks/promo";
