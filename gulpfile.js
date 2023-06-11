@@ -1,5 +1,5 @@
 const gulp = require("gulp");
-const browserSync = require("browser-sync");
+const browserSync = require("browser-sync").create();
 const sass = require("gulp-sass")(require("sass"));
 const cleanCSS = require("gulp-clean-css");
 const autoprefixer = require("gulp-autoprefixer");
@@ -8,13 +8,11 @@ const imagemin = require("gulp-imagemin");
 const htmlmin = require("gulp-htmlmin");
 
 gulp.task("server", function () {
-  browserSync({
+  browserSync.init({
     server: {
       baseDir: "docs",
     },
   });
-
-  gulp.watch("src/*.html").on("change", browserSync.reload);
 });
 
 gulp.task("styles", function () {
@@ -41,7 +39,8 @@ gulp.task("html", function () {
   return gulp
     .src("src/*.html")
     .pipe(htmlmin({ collapseWhitespace: true }))
-    .pipe(gulp.dest("docs/"));
+    .pipe(gulp.dest("docs/"))
+    .pipe(browserSync.stream());
 });
 
 gulp.task("scripts", function () {
