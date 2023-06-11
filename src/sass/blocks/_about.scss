@@ -2,7 +2,7 @@
   padding-top: 120px;
   &__wrapper {
     display: grid;
-    grid-template-columns: 400px 670px;
+    grid-template-columns: 300px 670px;
     grid-template-rows: minmax(245px, auto) minmax(240px, auto);
     grid-auto-rows: minmax(245px, auto);
     column-gap: 70px;
@@ -21,7 +21,7 @@
       width: 100%;
       // height: 100%;
       // filter: brightness(0.8);
-      border-radius: 1%;
+      // border-radius: 1%;
     }
   }
   &__descr {
