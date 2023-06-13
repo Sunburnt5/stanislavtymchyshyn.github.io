@@ -3,6 +3,10 @@
   font-size: 36px;
   line-height: 60px;
   color: #fff;
+  &__fz12 {
+    font-size: 12px;
+    line-height: 18px;
+  }
   &__fz14 {
     font-size: 14px;
     line-height: 21px;
@@ -11,6 +15,10 @@
     font-size: 16px;
     line-height: 24px;
   }
+  &__fz20 {
+    font-size: 20px;
+    line-height: 30;
+  }
   &__fz36 {
     font-size: 36px;
   }
@@ -18,3 +26,5 @@
     font-size: 48px;
   }
 }
+
+// color: #c0c0c0;

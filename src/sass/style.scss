@@ -32,22 +32,11 @@ body {
   width: 1140px;
 }
 
-.divider {
-  border: 1px solid #5b38e3;
-  width: 60px;
-  position: relative;
-  height: 3px;
-  background-color: $main-color;
-  margin-top: 25px;
-  box-shadow: 0 0 10px #5b38e3, 0 0 20px #5b38e3, 0 0 30px #5b38e3,
-    0 0 40px #5b38e3, 0 0 50px #5b38e3, 0 0 60px #5b38e3, 0 0 70px #5b38e3;
-  border-radius: 20%;
-  animation: moveLine 7s ease-in-out infinite;
-}
-
+@import "blocks/divider";
 @import "blocks/promo";
 @import "blocks/title";
 @import "blocks/button";
 @import "blocks/sidepanel";
 @import "blocks/menu";
 @import "blocks/about";
+@import "blocks/skills";

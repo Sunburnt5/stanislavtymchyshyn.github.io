@@ -1,0 +1,24 @@
+.divider_about {
+  border: 1px solid #5b38e3;
+  width: 60px;
+  position: relative;
+  height: 3px;
+  background-color: $main-color;
+  box-shadow: 0 0 10px #5b38e3, 0 0 20px #5b38e3, 0 0 30px #5b38e3,
+    0 0 40px #5b38e3, 0 0 50px #5b38e3, 0 0 60px #5b38e3, 0 0 70px #5b38e3;
+  border-radius: 20%;
+  animation: moveLineAbout 7s ease-in-out infinite;
+}
+
+.divider_skills {
+  margin-top: 25px;
+  border: 1px solid #5b38e3;
+  width: 60px;
+  position: relative;
+  height: 3px;
+  background-color: $main-color;
+  box-shadow: 0 0 10px #5b38e3, 0 0 20px #5b38e3, 0 0 30px #5b38e3,
+    0 0 40px #5b38e3, 0 0 50px #5b38e3, 0 0 60px #5b38e3, 0 0 70px #5b38e3;
+  border-radius: 20%;
+  animation: moveLineSkills 7s ease-in-out infinite;
+}

@@ -1,4 +1,4 @@
-@keyframes moveLine {
+@keyframes moveLineAbout {
   0% {
     left: 0%;
   }
@@ -10,5 +10,20 @@
   }
   100% {
     left: 0%;
+  }
+}
+
+@keyframes moveLineSkills {
+  0% {
+    left: 25%;
+  }
+  50% {
+    left: 70%;
+  }
+  51% {
+    left: 70%;
+  }
+  100% {
+    left: 25%;
   }
 }
