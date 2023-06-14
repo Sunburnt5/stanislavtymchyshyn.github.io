@@ -41,3 +41,10 @@ menuLinks.forEach((menuLink) => {
     }
   });
 });
+
+const counters = document.querySelectorAll(".skills__item-percent"),
+  lines = document.querySelectorAll(".skills__item-lines");
+
+counters.forEach((item, i) => {
+  lines[i].style.width = item.innerHTML;
+});

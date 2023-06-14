@@ -1,25 +1,12 @@
 .skills {
   min-height: 100vh;
   padding-top: 120px;
-  &__title {
-    text-align: center;
-    position: relative;
-    @include before_cirle;
-    &::before {
-      top: -8px;
-      left: 50%;
-      transform: translateX(-50%);
-    }
-  }
-  &__subtitle {
-    position: relative;
-    margin-top: 6px;
-    text-align: center;
-  }
   &__items {
     display: grid;
     grid-template-columns: repeat(4, 270px);
+    grid-auto-rows: repeat(2, 270px);
     column-gap: 20px;
+    row-gap: 15px;
     margin-top: 60px;
     &-item {
       border-radius: 15px;

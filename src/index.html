@@ -170,8 +170,8 @@
         <nav>
           <ul class="menu__list">
             <li class="menu__link"><a href="#about">ПРО МЕНЕ</a></li>
-            <li class="menu__link"><a href="#">НАВИЧКИ</a></li>
-            <li class="menu__link"><a href="#">МОЇ ПРАЦІ</a></li>
+            <li class="menu__link"><a href="#skills">НАВИЧКИ</a></li>
+            <li class="menu__link"><a href="#portfolio">МОЇ ПРАЦІ</a></li>
             <li class="menu__link"><a href="#">КОНТАКТИ</a></li>
           </ul>
         </nav>
@@ -394,6 +394,7 @@
                 </div>
               </div>
             </div>
+
             <div class="about__skills-item">
               <div>
                 <?xml version="1.0" ?><svg
@@ -432,10 +433,12 @@
       </div>
     </section>
 
-    <section class="skills">
+    <section class="skills" id="skills">
       <div class="container">
-        <div class="title title__fz14 skills__title">Навички</div>
-        <div class="title skills__subtitle">Що я використовую в роботі</div>
+        <div class="title title__fz14 title__section-title">Навички</div>
+        <div class="title title__section-subtitle">
+          Що я використовую в роботі
+        </div>
         <div class="divider_skills"></div>
         <div class="skills__items">
           <div class="skills__items-item">
@@ -476,39 +479,69 @@
           <div class="skills__item-skills">
             <div class="skills__item-name">Створення сайтів</div>
             <div class="skills__item-percent">100%</div>
-            <div class="skills__item-lines" style="width: 100%"></div>
+            <div class="skills__item-lines"></div>
             <div class="skills__item-line"></div>
           </div>
           <div class="skills__item-skills">
             <div class="skills__item-name">Створення програм</div>
             <div class="skills__item-percent">80%</div>
-            <div class="skills__item-lines" style="width: 80%"></div>
+            <div class="skills__item-lines"></div>
             <div class="skills__item-line"></div>
           </div>
           <div class="skills__item-skills">
             <div class="skills__item-name">Робота з даними</div>
             <div class="skills__item-percent">75%</div>
-            <div class="skills__item-lines" style="width: 75%"></div>
+            <div class="skills__item-lines"></div>
             <div class="skills__item-line"></div>
           </div>
           <div class="skills__item-skills">
             <div class="skills__item-name">Креативність</div>
             <div class="skills__item-percent">80%</div>
-            <div class="skills__item-lines" style="width: 80%"></div>
+            <div class="skills__item-lines"></div>
             <div class="skills__item-line"></div>
           </div>
           <div class="skills__item-skills">
             <div class="skills__item-name">Створення дизайну</div>
             <div class="skills__item-percent">85%</div>
-            <div class="skills__item-lines" style="width: 85%"></div>
+            <div class="skills__item-lines"></div>
             <div class="skills__item-line"></div>
           </div>
           <div class="skills__item-skills">
             <div class="skills__item-name">Soft skills</div>
             <div class="skills__item-percent">95%</div>
-            <div class="skills__item-lines" style="width: 95%"></div>
+            <div class="skills__item-lines"></div>
             <div class="skills__item-line"></div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="title title__fz14 title__section-title">Портфоліо</div>
+        <div class="title title__section-subtitle">Мої праці</div>
+        <div class="divider_portfolio"></div>
+        <div class="portfolio__wrapper">
+          <!-- щоб зробити посилання на сайт, найкраще папку з сайтом закинути 
+            в папку docs і потім в href прописати href="/*назва проекту*" -->
+          <a href="#" class="portfolio__item">
+            <img src="img/works/uber.jpg" alt="test" />
+          </a>
+          <a href="#" class="portfolio__item">
+            <img src="img/works/pulse.jpg" alt="test" />
+          </a>
+          <a href="#" class="portfolio__item">
+            <img src="img/works/bread.jpg" alt="test" />
+          </a>
+          <a href="#" class="portfolio__item vertical">
+            <img src="img/works/plans.jpg" alt="test" />
+          </a>
+          <a href="#" class="portfolio__item">
+            <img src="img/works/ipad.jpg" alt="test" />
+          </a>
+          <a href="#" class="portfolio__item horizontal">
+            <img src="img/works/mac.jpg" alt="test" />
+          </a>
         </div>
       </div>
     </section>

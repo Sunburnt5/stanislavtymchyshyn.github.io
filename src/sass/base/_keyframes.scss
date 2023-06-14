@@ -27,3 +27,18 @@
     left: 25%;
   }
 }
+
+@keyframes moveLinePortfolio {
+  0% {
+    left: 41%;
+  }
+  50% {
+    left: 54%;
+  }
+  51% {
+    left: 54%;
+  }
+  100% {
+    left: 41%;
+  }
+}

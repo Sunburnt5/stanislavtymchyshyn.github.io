@@ -25,6 +25,19 @@
   &__fz48 {
     font-size: 48px;
   }
+  &__section-title {
+    text-align: center;
+    position: relative;
+    @include before_cirle;
+    &::before {
+      top: -8px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  &__section-subtitle {
+    text-align: center;
+  }
 }
 
 // color: #c0c0c0;
