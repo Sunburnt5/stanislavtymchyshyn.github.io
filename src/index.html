@@ -9,40 +9,10 @@
     <meta name="title" content="Особисте портфоліо Stanislav Tymchyshyn" />
     <meta
       name="description"
-      content="Особисте портфоліо, де представлені мої найкращі роботи та досягнення."
+      content="Портфоліо, де представлені мої найкращі роботи та досягнення."
     />
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://metatags.io/" />
-    <meta
-      property="og:title"
-      content="Особисте портфоліо Stanislav Tymchyshyn"
-    />
-    <meta
-      property="og:description"
-      content="Особисте портфоліо, де представлені мої найкращі роботи та досягнення."
-    />
-    <meta
-      property="og:image"
-      content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
-    />
-
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://metatags.io/" />
-    <meta
-      property="twitter:title"
-      content="Особисте портфоліо Stanislav Tymchyshyn"
-    />
-    <meta
-      property="twitter:description"
-      content="Особисте портфоліо, де представлені мої найкращі роботи та досягнення."
-    />
-    <meta
-      property="twitter:image"
-      content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
-    />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Станіслав Тимчишин" />
 
     <!-- Favicon-->
     <link
@@ -172,7 +142,7 @@
             <li class="menu__link"><a href="#about">ПРО МЕНЕ</a></li>
             <li class="menu__link"><a href="#skills">НАВИЧКИ</a></li>
             <li class="menu__link"><a href="#portfolio">МОЇ ПРАЦІ</a></li>
-            <li class="menu__link"><a href="#">КОНТАКТИ</a></li>
+            <li class="menu__link"><a href="#contacts">КОНТАКТИ</a></li>
           </ul>
         </nav>
 
@@ -542,6 +512,72 @@
           <a href="#" class="portfolio__item horizontal">
             <img src="img/works/mac.jpg" alt="test" />
           </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contacts" id="contacts">
+      <div class="container">
+        <div class="contacts__wrapper">
+          <div class="contacts__photo">
+            <img src="img/main_photo.png" alt="My Photo" />
+          </div>
+          <div class="contacts__descr">
+            <h2 class="title title__fz16 contacts__title">Контакти</h2>
+            <div class="title title__fz36 contacts__subtitle">
+              Напишіть мені
+            </div>
+            <div class="divider_contacts"></div>
+
+            <div class="title title__fz14 contacts__text">
+              Будь-яким зручним для вас способом:
+            </div>
+            <div class="contacts__social">
+              <a
+                href="https://www.facebook.com/profile.php?id=100087777975424"
+                target="_blank"
+                class="contacts__link"
+              >
+                <img src="icons/contacts/Facebook.svg" alt="Facebook" />
+              </a>
+              <a
+                href="https://t.me/tymchyshyn5"
+                target="_blank"
+                class="contacts__link"
+              >
+                <img src="icons/contacts/Telegram.svg" alt="Telegram" />
+              </a>
+              <a
+                href="https://www.instagram.com/tymchyshyn5/"
+                target="_blank"
+                class="contacts__link"
+              >
+                <img src="icons/contacts/Instagram.svg" alt="Instagram" />
+              </a>
+            </div>
+            <div class="title title__fz14 contacts__text">
+              Або залишіть свої дані і я сам вам напишу
+            </div>
+            <form action="#" class="contacts__form">
+              <div class="contacts__input">
+                <input name="name" id="name" type="text" />
+                <label for="name">Ваше ім’я</label>
+              </div>
+              <div class="contacts__input">
+                <input name="email" id="email" type="email" />
+                <label for="email">Ваша пошта</label>
+              </div>
+              <div class="contacts__textarea">
+                <textarea name="text" id="text"></textarea>
+                <label for="text">Ваше повідомлення</label>
+              </div>
+              <div>
+                <button class="contacts__btn btn">
+                  Відправити повідомлення
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     </section>

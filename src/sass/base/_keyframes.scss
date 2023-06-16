@@ -42,3 +42,18 @@
     left: 41%;
   }
 }
+
+@keyframes moveLineContacts {
+  0% {
+    left: 0%;
+  }
+  50% {
+    left: 20%;
+  }
+  51% {
+    left: 20%;
+  }
+  100% {
+    left: 0%;
+  }
+}

@@ -2,7 +2,9 @@
   height: 45px;
   background: $main-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  padding: 12px 23px;
+  padding: 10px 23px;
+  color: #fff;
+  font-weight: bold;
   &:hover {
     background-color: #533faa;
     transition: background-color 0.3s ease;
