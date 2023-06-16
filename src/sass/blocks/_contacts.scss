@@ -23,10 +23,23 @@
     padding: 1px 0 0 12px;
     @include before_cirle;
   }
-  &__text,
-  &__social {
+  &__text {
     margin-top: 20px;
   }
+
+  &__social {
+    margin-top: 20px;
+    a {
+      text-decoration: none;
+    }
+    img {
+      &:hover {
+        transform: scale(1.15);
+        transition: all 0.4s ease-in-out;
+      }
+    }
+  }
+
   &__link {
     margin-right: 25px;
     img {
