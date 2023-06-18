@@ -76,6 +76,20 @@
       column-gap: 25px;
     }
   }
+  @keyframes moveLineAbout {
+    0% {
+      left: 0%;
+    }
+    50% {
+      left: 71%;
+    }
+    51% {
+      left: 71%;
+    }
+    100% {
+      left: 0%;
+    }
+  }
 }
 
 @media (max-width: 992px) {
@@ -296,10 +310,10 @@
       left: 0%;
     }
     50% {
-      left: 74%;
+      left: 55%;
     }
     51% {
-      left: 74%;
+      left: 55%;
     }
     100% {
       left: 0%;
