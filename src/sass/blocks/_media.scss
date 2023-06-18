@@ -90,6 +90,20 @@
       left: 0%;
     }
   }
+  @keyframes moveLineSkills {
+    0% {
+      left: 21%;
+    }
+    50% {
+      left: 73%;
+    }
+    51% {
+      left: 73%;
+    }
+    100% {
+      left: 21%;
+    }
+  }
 }
 
 @media (max-width: 992px) {
@@ -128,6 +142,20 @@
     }
     100% {
       left: 37%;
+    }
+  }
+  @keyframes moveLineSkills {
+    0% {
+      left: 11%;
+    }
+    50% {
+      left: 81%;
+    }
+    51% {
+      left: 81%;
+    }
+    100% {
+      left: 11%;
     }
   }
 }
@@ -287,6 +315,7 @@
     }
   }
   .promo {
+    min-height: 640px;
     background: url("../img/main_bg.jpg") no-repeat 57% / cover;
     &__btns {
       margin-top: 30px;
@@ -341,21 +370,21 @@
 
   @keyframes moveLineSkills {
     0% {
-      left: 2%;
+      left: 13%;
     }
     50% {
-      left: 79%;
+      left: 75%;
     }
     51% {
-      left: 79%;
+      left: 75%;
     }
     100% {
-      left: 2%;
+      left: 13%;
     }
   }
   @keyframes moveLinePortfolio {
     0% {
-      left: 28%;
+      left: 34%;
     }
     50% {
       left: 53%;
@@ -364,7 +393,7 @@
       left: 53%;
     }
     100% {
-      left: 28%;
+      left: 34%;
     }
   }
 
@@ -402,10 +431,44 @@
       left: -1%;
     }
     50% {
-      left: 61%;
+      left: 43%;
     }
     51% {
-      left: 61%;
+      left: 43%;
+    }
+    100% {
+      left: -1%;
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  @keyframes moveLineContacts {
+    0% {
+      left: -1%;
+    }
+    50% {
+      left: 50%;
+    }
+    51% {
+      left: 50%;
+    }
+    100% {
+      left: -1%;
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  @keyframes moveLineContacts {
+    0% {
+      left: -1%;
+    }
+    50% {
+      left: 63%;
+    }
+    51% {
+      left: 63%;
     }
     100% {
       left: -1%;
