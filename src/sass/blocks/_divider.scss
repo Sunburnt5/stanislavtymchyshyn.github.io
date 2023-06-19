@@ -7,11 +7,11 @@
   box-shadow: 0 0 10px #5b38e3, 0 0 20px #5b38e3, 0 0 30px #5b38e3,
     0 0 40px #5b38e3, 0 0 50px #5b38e3, 0 0 60px #5b38e3, 0 0 70px #5b38e3;
   border-radius: 20%;
-  animation: moveLineAbout 9s ease-in-out infinite;
+  // animation: moveLineAbout 9s ease-in-out infinite;
 }
 
 .divider_skills {
-  margin-top: 25px;
+  margin: 25px auto 0 auto;
   border: 1px solid #5b38e3;
   width: 60px;
   position: relative;
@@ -20,11 +20,11 @@
   box-shadow: 0 0 10px #5b38e3, 0 0 20px #5b38e3, 0 0 30px #5b38e3,
     0 0 40px #5b38e3, 0 0 50px #5b38e3, 0 0 60px #5b38e3, 0 0 70px #5b38e3;
   border-radius: 20%;
-  animation: moveLineSkills 9s ease-in-out infinite;
+  // animation: moveLineSkills 9s ease-in-out infinite;
 }
 
 .divider_portfolio {
-  margin-top: 25px;
+  margin: 25px auto 0 auto;
   border: 1px solid #5b38e3;
   width: 60px;
   position: relative;
@@ -33,7 +33,7 @@
   box-shadow: 0 0 10px #5b38e3, 0 0 20px #5b38e3, 0 0 30px #5b38e3,
     0 0 40px #5b38e3, 0 0 50px #5b38e3, 0 0 60px #5b38e3, 0 0 70px #5b38e3;
   border-radius: 20%;
-  animation: moveLinePortfolio 9s ease-in-out infinite;
+  // animation: moveLinePortfolio 9s ease-in-out infinite;
 }
 
 .divider_contacts {
@@ -45,5 +45,5 @@
   box-shadow: 0 0 10px #5b38e3, 0 0 20px #5b38e3, 0 0 30px #5b38e3,
     0 0 40px #5b38e3, 0 0 50px #5b38e3, 0 0 60px #5b38e3, 0 0 70px #5b38e3;
   border-radius: 20%;
-  animation: moveLineContacts 9s ease-in-out infinite;
+  // animation: moveLineContacts 9s ease-in-out infinite;
 }
